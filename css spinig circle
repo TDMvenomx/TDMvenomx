@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<style >
+    .spiner{
+   
+        background-color: rgb(255, 234, 0);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 25px solid rgb(244, 9, 9);
+        border-top: 20px solid rgb(21, 24, 215);
+        animation: ani 2.5s linear infinite;
+        align-content: center;
+        align-items: center;
+
+    }
+    @keyframes ani{
+ to{
+    transform: rotate(360deg);
+ }
+    }
+
+</style>
+</head>
+<body>
+   <div class="spiner" style="color: black;"></div>
+   <style>
+      body{
+         background-color: black;
+      }
+   </style>
+   
+</body>
+</html>
